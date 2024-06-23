@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helena Sladovnikova Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d5f5 3px solid;
+        }
+        header a, footer a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #77d5f5 2px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .project h2 {
+            color: #333;
+        }
+        .project a {
+            color: #77d5f5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Helena Sladovnikova</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi, I am Helena Sladovnikova, an experienced UX Designer with a strong background in architecture and urban planning. Explore my projects to see how I blend design thinking and user-centered principles to create impactful solutions.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h2>Project A_Urbanistic</h2>
+            <p><strong>Goal:</strong> Redesign urban spaces in a town with a 55,000 population to create a pedestrian-friendly, liveable city center.</p>
+            <p><strong>Role:</strong> Urban Planner and Project Coordinator.</p>
+            <p><strong>Context:</strong> Part of a complex urban, economic, and transport strategy.</p>
+            <p><strong>Process:</strong> Conducted extensive research, collaborated with a cross-professional team, developed conceptual models, and organized citizen participation events for feedback.</p>
+            <p><strong>Tools and Techniques:</strong> Surveys, symposiums, participatory design methods, CAD software.</p>
+            <p><strong>Challenges and Solutions:</strong> Managed diverse stakeholder needs through inclusive design processes.</p>
+            <p><strong>Outcome:</strong> Delivered a proposal for a pedestrian-friendly city center, enhancing urban liveability and community engagement.</p>
+            <p><a href="file:///mnt/data/Project%20A_Urbanistic.pdf" target="_blank">View Project A PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>Project B_Design of Train Station</h2>
+            <p><strong>Goal:</strong> Design a new train station, including public space and infrastructure, as part of the modernization of the Prague-Kladno railway.</p>
+            <p><strong>Role:</strong> Architect responsible for the design of the train station and surrounding areas.</p>
+            <p><strong>Context:</strong> Diplomatic project addressing urban infrastructure and public space improvement.</p>
+            <p><strong>Process:</strong> Analyzed current transportation needs, created architectural plans, developed prototypes, and conducted usability testing.</p>
+            <p><strong>Tools and Techniques:</strong> CAD software, architectural modeling, usability testing.</p>
+            <p><strong>Challenges and Solutions:</strong> Balanced infrastructure requirements with user-centric design.</p>
+            <p><strong>Outcome:</strong> Designed a functional and aesthetically pleasing train station that integrates with the urban environment.</p>
+            <p><a href="file:///mnt/data/Project%20B_Design%20of%20train%20station.pdf" target="_blank">View Project B PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>CourseProject_Cornell_1: Effective User Research</h2>
+            <p><strong>Goal:</strong> Conduct user research to inform design decisions.</p>
+            <p><strong>Role:</strong> UX Researcher conducting contextual interviews and data analysis.</p>
+            <p><strong>Context:</strong> Academic project at Cornell University.</p>
+            <p><strong>Process:</strong> Conducted interviews, analyzed data using affinity diagramming, and developed design recommendations.</p>
+            <p><strong>Tools and Techniques:</strong> Contextual interviews, affinity diagramming, qualitative analysis.</p>
+            <p><strong>Challenges and Solutions:</strong> Ensured thorough data collection and analysis.</p>
+            <p><strong>Outcome:</strong> Provided actionable insights for user-centered design improvements.</p>
+            <p><a href="file:///mnt/data/CourseProject_Cornell_1.pdf" target="_blank">View Project PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>CourseProject_Cornell_2: Creating User Personas</h2>
+            <p><strong>Goal:</strong> Develop detailed user personas based on research data.</p>
+            <p><strong>Role:</strong> UX Designer creating personas to guide design decisions.</p>
+            <p><strong>Context:</strong> Academic project at Cornell University.</p>
+            <p><strong>Process:</strong> Analyzed research data, developed user personas, and validated them through feedback.</p>
+            <p><strong>Tools and Techniques:</strong> User research, data analysis, persona creation.</p>
+            <p><strong>Challenges and Solutions:</strong> Synthesized diverse data points into coherent personas.</p>
+            <p><strong>Outcome:</strong> Developed comprehensive personas to guide UX design.</p>
+            <p><a href="file:///mnt/data/CourseProject_Cornell_2.pdf" target="_blank">View Project PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>CourseProject_Cornell_3: Developing UX Design Concepts</h2>
+            <p><strong>Goal:</strong> Conceptualize and prototype UX designs.</p>
+            <p><strong>Role:</strong> UX Designer responsible for developing and testing design concepts.</p>
+            <p><strong>Context:</strong> Academic project at Cornell University.</p>
+            <p><strong>Process:</strong> Generated design concepts, developed prototypes, and conducted usability testing.</p>
+            <p><strong>Tools and Techniques:</strong> Sketching, wireframing, prototyping, usability testing.</p>
+            <p><strong>Challenges and Solutions:</strong> Iteratively refined designs based on user feedback.</p>
+            <p><strong>Outcome:</strong> Created user-centered design concepts and prototypes.</p>
+            <p><a href="file:///mnt/data/CourseProject_Cornell_3.pdf" target="_blank">View Project PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>CourseProject_Cornell_Website_Prototype</h2>
+            <p><strong>Goal:</strong> Build a functional website prototype.</p>
+            <p><strong>Role:</strong> UX Designer and Developer.</p>
+            <p><strong>Context:</strong> Academic project at Cornell University.</p>
+            <p><strong>Process:</strong> Conducted user research, created wireframes, developed the prototype, and tested usability.</p>
+            <p><strong>Tools and Techniques:</strong> HTML/CSS, wireframing, prototyping, usability testing.</p>
+            <p><strong>Challenges and Solutions:</strong> Balanced design aesthetics with functionality.</p>
+            <p><strong>Outcome:</strong> Developed a functional and user-friendly website prototype.</p>
+            <p><a href="file:///mnt/data/CourseProject_Cornell_Website_Prototype.pdf" target="_blank">View Prototype PDF</a></p>
+        </div>
+
+        <div class="project">
+            <h2>Figma Final Result Project for Cornell University</h2>
+            <p><strong>Goal:</strong> Create a detailed and functional prototype using Figma.</p>
+            <p><strong>Role:</strong> Lead UX Designer.</p>
+            <p><strong>Context:</strong> Academic project showcasing proficiency in Figma.</p>
+            <p><strong>Process:</strong> Developed wireframes and mockups, created interactive prototypes, and conducted usability tests.</p>
+            <p><strong>Tools and Techniques:</strong> Figma, wireframing, prototyping, usability testing.</p>
+            <p><strong>Challenges and Solutions:</strong> Ensured the prototype was visually appealing and functional.</p>
+            <p><strong>Outcome:</strong> Produced a high-quality, interactive prototype. <a href="https://www.figma.com/design/AXx4BdTim8p4rXrzX0i2CD/Materio?node-id=0-1" target="_blank">View Figma Project</a></p>
+        </div>
+
+        <div class="project">
+            <h2>Ukraine Project - Miro Board</h2>
+            <p><strong>Goal:</strong> Lead a project to improve user interaction and workflow.</p>
+            <p><strong>Role:</strong> Project Lead and Designer.</p>
+            <p><strong>Context:</strong> Community project focused on supporting Ukraine.</p>
+            <p><strong>Process:</strong> Conducted user research, developed workflows and prototypes, and coordinated with a team of UX researchers and designers.</p>
+            <p><strong>Tools and Techniques:</strong> Miro, user research, workflow design, prototyping.</p>
+            <p><strong>Challenges and Solutions:</strong> Managed a remote team and ensured effective communication and collaboration.</p>
+            <p><strong>Outcome:</strong> Improved user interaction and efficiency through well-designed workflows and prototypes. <a href="https://miro.com/app/board/uXjVOFhD-do=/?share_link_id=237413430458" target="_blank">View Miro Board</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Helena Sladovnikova &copy; 2024</p>
+        <p>Contact: <a href="mailto:helena.slad@gmail.com">helena.slad@gmail.com</a> | Phone: +41 78 698 53 84</p>
+    </footer>
+</body>
+</html>
